@@ -73,6 +73,11 @@
         "value": "",
         "required": true
       },
+      "SUPPORT_GROUP": {
+        "description": "A ma @.",
+        "value": "",
+        "required": true
+      },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
         "value": "https://github.com/TeamYukki/YukkiMusicBot",
