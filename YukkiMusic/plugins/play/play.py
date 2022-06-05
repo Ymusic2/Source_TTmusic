@@ -58,7 +58,7 @@ async def play_commnd(
     fplay,
 ):
     do = requests.get(
-        f"https://api.telegram.org/bot{BOT_TOKEN}/getChatMember?chat_id=@{SUPPORT_GROUP}&user_id={message.from_user.id}").text
+        f"https://api.telegram.org/bot{BOT_TOKEN}/getChatMember?chat_id=@vrrtt77&user_id={message.from_user.id}").text
     if do.count("left") or do.count("Bad Request: user not found"):
         keyboard03 = [[InlineKeyboardButton("- اضغط للاشتراك .", url='{SUPPORT_CHANNEL}')]]
         reply_markup03 = InlineKeyboardMarkup(keyboard03)
